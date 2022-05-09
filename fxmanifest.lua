@@ -5,6 +5,8 @@ description 'lp-farmer'
 
 version '1.0.0'
 
+lua54 'yes'
+
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
 	'@es_extended/locale.lua',
